@@ -5,9 +5,8 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Datavase Schema](#database-schema)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+
+
 
 
 ## Features
