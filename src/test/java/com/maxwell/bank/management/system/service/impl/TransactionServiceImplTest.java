@@ -63,7 +63,7 @@ public class TransactionServiceImplTest {
                         .id(1L)
                         .name("Maxwell Amuzu")
                         .role(Role.USER)
-                        .email("mohammed@gmail.com")
+                        .email("maxwell@gmail.com")
                         .phone("01552422396")
                         .password("123456")
                         .build()
