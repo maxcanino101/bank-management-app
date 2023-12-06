@@ -56,23 +56,23 @@ public class AuthenticationServiceImplTest {
 
         registerRequest = RegisterRequestModel
                 .builder()
-                .name("Muhammad Eid")
-                .email("mohammed@gmail.com")
+                .name("Maxwell")
+                .email("maxwell@gmail.com")
                 .phone("01552422396")
                 .password("123456")
                 .build();
 
         loginRequest = LoginRequestModel
                 .builder()
-                .email("mohammed@gmail.com")
+                .email("maxwell@gmail.com")
                 .password("123456")
                 .build();
 
         user = User.
                 builder()
                 .id(1L)
-                .name("Muhammad Eid")
-                .email("mohammed@gmail.com")
+                .name("Maxwell Amuzu")
+                .email("maxwell@gmail.com")
                 .phone("01552422396")
                 .password("123456")
                 .role(Role.USER)
