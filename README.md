@@ -13,7 +13,6 @@
 
 - User-Friendly Web Interface: 
 - Authentication and Authorization: 
-- Account Support: 
 - Comprehensive Account Details:
 - Efficient Transaction Handling:
 
