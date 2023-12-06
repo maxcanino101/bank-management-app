@@ -29,8 +29,8 @@ public class UserRepositoryTest {
     public void setUp() {
         user = userRepository.save(User
                 .builder()
-                .name("Muhammad Eid")
-                .email("mohammed@gmail.com")
+                .name("Maxwell Amuzu")
+                .email("maxwell@gmail.com")
                 .phone("01552422396")
                 .role(Role.USER)
                 .password("123456")
