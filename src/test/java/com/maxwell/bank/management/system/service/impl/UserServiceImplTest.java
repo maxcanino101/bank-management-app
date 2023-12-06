@@ -44,7 +44,7 @@ public class UserServiceImplTest {
 
     @Test
     public void getUserProfileShouldReturnUserDataSuccessfully() {
-        String email = "mohammed@gmail.com";
+        String email = "maxwell@gmail.com";
         User user = User.
                 builder()
                 .id(1L)
