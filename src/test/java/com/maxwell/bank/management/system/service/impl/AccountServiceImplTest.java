@@ -57,8 +57,8 @@ public class AccountServiceImplTest {
         user = User.
                 builder()
                 .id(1L)
-                .name("Muhammad Eid")
-                .email("mohammed@gmail.com")
+                .name("Maxwell Amuzu")
+                .email("maxwell@gmail.com")
                 .phone("01552422396")
                 .password("123456")
                 .role(Role.USER)
