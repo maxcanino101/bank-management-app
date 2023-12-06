@@ -48,8 +48,8 @@ public class UserServiceImplTest {
         User user = User.
                 builder()
                 .id(1L)
-                .name("Muhammad Eid")
-                .email(email)
+                .name("Maxwell Amuzu")
+                .email("maxwell@gmail.com")
                 .phone("01552422396")
                 .password("123456")
                 .role(Role.USER)
@@ -80,7 +80,7 @@ public class UserServiceImplTest {
 
     @Test
     void getUserProfile_whenUserNotFound_shouldThrowEntityNotFoundException() {
-        String email = "mohammed@gmail.com";
+        String email = "maxwell@gmail.com";
 
         Authentication authentication = new UsernamePasswordAuthenticationToken(email, "password");
         SecurityContextHolder.getContext().setAuthentication(authentication);
