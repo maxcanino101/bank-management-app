@@ -61,7 +61,7 @@ public class TransactionServiceImplTest {
                 .user(User
                         .builder()
                         .id(1L)
-                        .name("Muhammad Eid")
+                        .name("Maxwell Amuzu")
                         .role(Role.USER)
                         .email("mohammed@gmail.com")
                         .phone("01552422396")
